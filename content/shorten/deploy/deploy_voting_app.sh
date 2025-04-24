@@ -44,5 +44,5 @@ docker-compose up -d --build || docker compose up -d --build
 echo "
 ✅ Deployment Complete!
 - Vote UI:    http://{YOUR-EC2-PUBLIC-IP}:8080
-- Results UI: http://{YOUR-EC2-PUBLIC-IP}:8011
+- Results UI: http://{YOUR-EC2-PUBLIC-IP}:8081
 "
