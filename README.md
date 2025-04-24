@@ -41,6 +41,6 @@
 7. Observe the metrics shown in the terminal once the benchmarking is completed.
    
 # Evaluation and Expected Results
-Different EC2 instances have different optimal applications coupled with Docker to work with. 
-Applications with a few file I/O operations and simple functionalities could perform better with smaller instances by having a smaller latency.
-Applications with moderate complexity and possibly requiring multiple containers to operate would need larger instances to achieve better performance, as seen from the larger number of reads and writes to the SQL database and smaller operation latency.
+* Different EC2 instances have different optimal applications coupled with Docker to work with. 
+* Applications with a few file I/O operations and simple functionalities could perform better with smaller instances by having a smaller latency.
+* Applications with moderate complexity and possibly requiring multiple containers to operate would need larger instances to achieve better performance, as seen from the larger number of reads and writes to the SQL database and smaller operation latency.
