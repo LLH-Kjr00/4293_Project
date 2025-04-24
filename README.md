@@ -28,7 +28,7 @@
 3. Copy the IP address (with the port number) shown in the terminal once the deployment is completed.
 4. Open Chrome or a browser
 5. Paste and traverse to the IP address
-6. Run tweet_app_benchmark.sh with "sudo ./tweet_app_benchmark.sh" to test.
+6. Run tweet_app_benchmark.sh with "sudo ./tweet_app_benchmark.sh" to test. (The one in "original" tests for 5 minutes, the one in "shorten" tests for 1 minute)
 7. Observe the metrics shown in the terminal once the benchmarking is completed.
 
 * For benchmarking the instances while running the tweet app with Docker:
@@ -37,7 +37,7 @@
 3. Copy the IP address of the EC2 instance and remember the port number shown in the terminal once the deployment is completed.
 4. Open Chrome or a browser
 5. Paste and traverse to the IP address with two different port numbers (8080 is for the voting UI and 8011 is for the results UI)
-6. Run voting_app_benchmark.sh with "sudo ./voting_app_benchmark.sh" to test.
+6. Run voting_app_benchmark.sh with "sudo ./voting_app_benchmark.sh" to test. (The one in "original" tests for 5 minutes, the one in "shorten" tests for 1 minute)
 7. Observe the metrics shown in the terminal once the benchmarking is completed.
    
 # Evaluation and Expected Results
