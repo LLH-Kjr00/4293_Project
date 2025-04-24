@@ -16,7 +16,7 @@ No specific model needed to be installed
 # Installation
 Copy the contents of the scripts respectively and paste them into the EC2 instances.
 Grant the scripts the right to be executed by typing "chmod +x {name of the script}"
-First, run the install_docker.sh to install Docker 
+First, run the install_docker.sh to install Docker.
 Then, run the script under the "deploy" folder to clone and deploy the sample projects.
 
 # Experiment Flow
